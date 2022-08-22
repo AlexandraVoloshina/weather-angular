@@ -1,3 +1,13 @@
+#Description for using App-Weather:
+
+git clone https://github.com/AlexandraVoloshina/weather-angular.git
+
+npm install
+
+go to http://localhost:4200/
+
+
+======================================================================================================
 # AppWeather
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
