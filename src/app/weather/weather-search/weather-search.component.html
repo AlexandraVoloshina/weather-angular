@@ -1,0 +1,13 @@
+<form class="row g-3" [formGroup]="cityForm" (ngSubmit)="onSubmit()">
+  <div class="col-auto">
+    <label for="city" class="visually-hidden">City</label>
+    <input formControlName="location" type="text" class="form-control" id="city" placeholder="City" required>
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary mb-3">Add City</button>
+  </div>
+  <div>
+    <span class="info">City found:</span>City Name
+  </div>
+</form>
+

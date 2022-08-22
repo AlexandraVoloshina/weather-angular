@@ -1,0 +1,4 @@
+<section class="weather-list">
+  <app-weather-item *ngFor="let weatherItem of weatherArray" [weatherItem]="weatherItem" (deleteItemEvent)="deleteItem($event)"></app-weather-item>
+  <app-pagination [weatherItems]="weatherArray" (changePageEvent)="changePage($event)"></app-pagination>
+</section>

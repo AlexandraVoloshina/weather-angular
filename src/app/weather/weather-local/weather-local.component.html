@@ -1,0 +1,8 @@
+<div class="row">
+  <div *ngIf="!message" class="col-md-6 info">
+    <h3>Current location: {{city.cityName}}</h3>
+    <p>{{city.description}}</p>
+    <span>{{city.temperature}}°C</span>
+  </div>
+  <div *ngIf="message">{{message}}</div>
+</div>

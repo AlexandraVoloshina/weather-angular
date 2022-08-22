@@ -1,0 +1,17 @@
+.item{
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid;
+  box-shadow: 1px 1px 1px rgb(143, 138, 138);
+}
+
+.info{
+  display: inline-block;
+}
+
+.temp{
+  display: inline-block;
+  text-align: right;
+  padding-top: 20px;
+  font-size: 22px;
+}

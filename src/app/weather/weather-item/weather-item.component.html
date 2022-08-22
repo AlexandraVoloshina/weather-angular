@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-3">
+  </div>
+  <div class="col-md-6">
+    <div class="row item">
+      <div class="col-md-6 info">
+        <h3>{{ weatherItem.cityName }}</h3>
+        <p>{{ weatherItem.description }}</p>
+      </div>
+      <div class="col-md-3 temp">
+        <span>{{ weatherItem.temperature }}°C</span>
+      </div>
+      <div class="col-md-3 temp" (click)="deleteItem(weatherItem)">
+        <span>X</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>
